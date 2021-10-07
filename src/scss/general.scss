@@ -1,0 +1,55 @@
+body
+html{
+    font-size: 10px;
+}
+
+:root{
+    --color-main:#323264;
+    --color-main-alt:#46466E;
+    --color-main-soft:#686887;
+    --color-accent:#686887;
+    --color-active-regular:#24A3FF;
+    --color-active-hover:#0085FF;
+    --color-active-active:#006CCF;
+    --color-grey-bg:#F5F5FA;
+    --color-grey-bgalt:#EDEDF7;
+    --color-grey-text:#B3B3BA;
+    --color-grey-separator:#E6E6F0;
+    --gradient-regular:#323264 100% #323264 100% #A54B5F 100%;
+    --gradient-soft:#323264 100 % #323264 100 % #7A425E 100 %;
+    --gradient-red:#F0145A  100 %  #693264 100 %;
+    --gradient-supersoft:#323264 100 % #323264 100 % #643E72 100 %;
+    --gradient-redtext:#F0145A 100 % #EF8080 100 %;
+}
+
+@mixin title {
+    font-size: 4.2rem;
+    line-height: (50/42);
+}
+
+@mixin subtitle {
+    font-size: 3.2rem;
+    line-height: (38/32);
+}
+
+@mixin titlesmall {
+    font-size: 2.4rem;
+    line-height: (28/24);
+}
+
+@mixin title-caps {
+    font-size: 1.4rem;
+    line-height: (17/14);
+}
+
+@mixin title-4 {
+    font-size: 1.8;
+    line-height: (21/18);
+}
+
+
+@mixin paragraph {
+    font-size: 1.8rem;
+    line-height: (26/18);
+    color: #000;
+}
