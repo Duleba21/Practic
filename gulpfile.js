@@ -14,7 +14,7 @@ const watcher = () => {
 }
 
 const sassTask = () =>
-    src('./src/scss/styles.scss')
+    src('./src/scss/style.scss')
         .pipe(sass())
         .pipe(dest('./src/css'))
         .pipe(browserSync.stream());

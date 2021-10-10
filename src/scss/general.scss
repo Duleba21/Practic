@@ -54,3 +54,13 @@ html{
     line-height: (26/18);
     color: #000;
 }
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
